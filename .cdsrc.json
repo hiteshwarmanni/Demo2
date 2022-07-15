@@ -1,0 +1,19 @@
+{
+    "[development]": {
+        "auth": {
+            "passport": {
+                "strategy": "mock",
+                "users": {
+                    "inventory.viewer@tester.sap.com": {
+                        "password": "initial",
+                        "ID": "inventory.viewer@tester.sap.com"
+                    },
+                    "inventory.manager@tester.sap.com": {
+                        "password": "initial",
+                        "ID": "inventory.manager@tester.sap.com"
+                    }
+                }
+            }
+        }
+    }
+}

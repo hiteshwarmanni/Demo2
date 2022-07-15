@@ -1,0 +1,49 @@
+{
+  "format_version": 1,
+  "imports": [
+    {
+      "target_table": "INVRECON_DB_INVENTORY",
+      "source_data": {
+        "data_type": "CSV",
+        "file_name": "invrecon.db-Inventory.csv",
+        "has_header": true,
+        "type_config": {
+          "delimiter": ","
+        }
+      },
+      "import_settings": {
+        "import_columns": [
+          "ID",
+          "DATETIME",
+          "WAREHOUSE",
+          "MATERIAL",
+          "PLANT",
+          "STORAGELOCATION",
+          "BATCH",
+          "PARTNERUNRESTRICTED",
+          "PARTNERBLOCKED",
+          "PARTNERQUALITY",
+          "S4UNRESTRICTED",
+          "S4BLOCKED",
+          "S4QUALITY"
+        ],
+        "include_filter": []
+      },
+      "column_mappings": {
+        "ID": "ID",
+        "DATETIME": "DateTime",
+        "WAREHOUSE": "Warehouse",
+        "MATERIAL": "Material",
+        "PLANT": "Plant",
+        "STORAGELOCATION": "StorageLocation",
+        "BATCH": "Batch",
+        "PARTNERUNRESTRICTED": "PartnerUnrestricted",
+        "PARTNERBLOCKED": "PartnerBlocked",
+        "PARTNERQUALITY": "PartnerQuality",
+        "S4UNRESTRICTED": "S4Unrestricted",
+        "S4BLOCKED": "S4Blocked",
+        "S4QUALITY": "S4Quality"
+      }
+    }
+  ]
+}

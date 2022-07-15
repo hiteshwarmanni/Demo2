@@ -1,0 +1,9 @@
+---
+applications:
+  - name: Demo2-srv
+    path: .
+    memory: 256M
+    buildpacks:
+      - nodejs_buildpack
+    services:
+      - Demo2-db
