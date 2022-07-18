@@ -2,7 +2,7 @@
     "authenticationMethod": "route",
     "routes": [
         {
-            "source": "/catalog/(.*)",
+            "source": "/sap/opu/odata/sap/API_InventoryRecon/(.*)",
             "destination": "srv-api",
             "csrfProtection": true,
             "authenticationType": "xsuaa"
